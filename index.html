@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 3 Template-1</title>
+    <style>
+      body {
+        padding: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+      }
+
+      #left_content {
+        width: 50%;
+        float: left;
+      }
+      #right_content {
+        width: 50%;
+        float: right;
+      }
+      #lists {
+        padding-left: 1%;
+      }
+    </style>
   </head>
   <body>
     <div>
@@ -24,9 +44,10 @@
         voluptate voluptatum reprehenderit.
       </p>
     </div>
+    <br /><br />
 
-    <div>
-      <ul>
+    <div id="unordered_list">
+      <ul id="lists">
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
         <br />
         <li>Repudiandae odit exercitationem obcaecati! Eum,</li>
@@ -68,7 +89,7 @@
     </div>
     <br />
 
-    <div>
+    <div id="left_content">
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
@@ -82,7 +103,7 @@
         ethics, very popular during the Renaissance.
       </p>
     </div>
-    <div>
+    <div id="right_content">
       <p>
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
